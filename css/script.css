@@ -97,6 +97,7 @@ a {
 }
 
 .header .logo {
+    position: relative;
     overflow: hidden;
 }
 
@@ -187,4 +188,29 @@ a {
 
 .img-content .img {
     transform: translateX(100%);
+}
+
+@media screen and (max-width: 991px) {
+    
+    .header .logo {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .nav li {
+        display: none;
+
+    }
+
+    .img {
+        display: none;
+    }
+
+    .content {
+        top: 18%;
+        left: 10%;
+        text-align: center;
+        width: 260px;
+        height: 80vh;
+    }
 }

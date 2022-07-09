@@ -208,7 +208,8 @@ a {
 
     .content {
         top: 18%;
-        left: 12%;
+        left: 50%;
+        transform: translateX(-50%);
         text-align: center;
         width: 260px;
         height: 80vh;
